@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body {
+    margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#mainDiv {
+    width: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header {
+    background-color: #F8F9D7;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid #256D85;
+    border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#market {
+    background-color: #F8F9D7;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #256D85;
+    border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#categories {
+    background-color: #F8F9D7;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 2px solid #256D85;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#sidebar {
+    background-color: #F8F9D7;
+    height: 80px;
+    border: 2px solid #256D85;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#menu {
+    background-color: #F8F9D7;
+    height: 300px;
+    margin-left: 204.8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #256D85;
+    border-radius: 20px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
 }
